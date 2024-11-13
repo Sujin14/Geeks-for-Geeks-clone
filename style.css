@@ -413,8 +413,3 @@ footer ul li a:hover {
         transform: translateY(20px);
     }
 }
-
-.faq {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
-}
