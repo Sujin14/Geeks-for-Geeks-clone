@@ -414,12 +414,6 @@ footer ul li a:hover {
     }
 }
 
-.faq:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 .faq {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
