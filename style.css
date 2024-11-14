@@ -12,22 +12,17 @@
     --color-primary: rgb(214, 205, 205);
     --color-bg: white;
     --color-bg1: rgb(241, 227, 227);
-    --color-bg2: white;
-    --container-width-lg: 76%;
-    --container-width-md: 90%;
-    --container-width-sm: 94%;
-    --transition: all 400ms ease;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
-    color: var(--color-white);
+    color: black;
     background-color: var(--color-bg);
 }
 
 .container {
-    width: var(--container-width-lg);
+    width: 76%;
     margin: 0 auto;
 }
 
@@ -85,7 +80,6 @@ img {
     border: 1px solid green;
     font-weight: 500;
     border-radius: 7px;
-    transition: var(--transition);
 }
 
 .btn-primary {
@@ -103,7 +97,7 @@ nav {
     z-index: 11;
 }
 
-.nav__container {
+.nav-container {
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -123,7 +117,6 @@ nav button {
 .nav-menu a {
     font-size: 1rem;
     font-weight: bold;
-    transition: var(--transition);
 }
 
 header {
@@ -138,7 +131,7 @@ header h1 {
     color: rgb(63, 60, 60);
 }
 
-.header__container {
+.header-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -172,7 +165,7 @@ header h1 {
     color: rgb(93, 87, 87);
 }
 
-.categories__container {
+.categories-container {
     display: grid;
     grid-template-columns: 40% 60%;
 }
@@ -194,7 +187,7 @@ header h1 {
 }
 
 .category {
-    background: var(--color-bg2);
+    background: var(--color-bg1);
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
@@ -222,7 +215,7 @@ header h1 {
     margin-top: 10rem;
 }
 
-.courses__container {
+.courses-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -233,7 +226,6 @@ header h1 {
     box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.4);
     text-align: center;
     border: 1px solid transparent;
-    transition: var(--transition);
 }
 
 .course-info {
@@ -286,7 +278,7 @@ header h1 {
     display: block;
 }
 
-.testimonials__container {
+.testimonials-container {
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
@@ -343,13 +335,13 @@ footer {
     font-size: 0.9rem;
 }
 
-.footer__container {
+.footer-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
 }
 
-.footer__container div h4 {
+.footer-container div h4 {
     margin-bottom: 1.2rem;
 }
 
@@ -359,10 +351,6 @@ footer {
 
 footer ul li {
     margin-bottom: 0.7rem;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
 }
 
 .footer-socials {
@@ -376,7 +364,7 @@ footer ul li a:hover {
     text-align: center;
     margin-top: 4rem;
     padding: 1.2rem 0;
-    border-top: 1px solid var(--color-bg2);
+    border-top: 1px solid var(--color-bg1);
 }
 
 @keyframes moveUpDown {
